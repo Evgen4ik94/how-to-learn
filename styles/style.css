@@ -1,6 +1,6 @@
- main.description, section, div, header, table, ul, li,  h1, h3, .table_text, .main-text, .text {
+ /*main.description, section, div, header, table, ul, li,  h1, h3, .table_text, .main-text, .text {
   border: 2px solid red;
-}
+}*/
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -15,12 +15,14 @@
 .header {
   position: relative;
   overflow: hidden;
+  background-color: #f2f2f2;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   display: flex;
   align-items: center;
   /* выше установили ограничения для секции */
+  z-index: -3;
 }
 .logo__place_header {
   position:absolute;
@@ -71,7 +73,7 @@
   right: 0;
   height: 608px;
   width: 765px;
-  z-index: -9;
+  z-index: -1;
 }
 
 .header__square-pic {
@@ -81,7 +83,7 @@
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-  z-index: -10;
+  z-index: -2;
 }
 .description {
   display: flex;
@@ -191,10 +193,12 @@
   background: url(../images/feynman.png) left bottom no-repeat;
   background-size: 867px 637px;
   height: 890px;
+  background-color: #f2f2f2;
+  padding-top: 100px;
 }
 .feynman_title_place {
   width: 648px;
-  margin: 100px auto 70px auto;
+  margin: 100px auto 0 auto;
 }
 .feynman_title {
   line-height: 1.15;
@@ -204,7 +208,7 @@
 }
 .feynman_subtitle_place {
   width: fit-content;
-  margin: 0 auto;
+  margin: 70px auto;
 }
 .feynman_subtitle {
   line-height: 51px;
