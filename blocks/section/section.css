@@ -1,0 +1,36 @@
+<<<<<<< HEAD
+.section-title {
+    margin: 0;
+    text-align: center;
+    width: 60%;
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  
+  .section-subtitle {
+    width: 60%;
+    text-align: center;
+    margin: 20px 0 0 0;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+=======
+.section-title {
+    margin: 0;
+    text-align: center;
+    width: 60%;
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  
+  .section-subtitle {
+    width: 60%;
+    text-align: center;
+    margin: 20px 0 0 0;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+>>>>>>> ccaa32954a8e3e914cb3a0ac440bb8c0ff1eed10
+  }
