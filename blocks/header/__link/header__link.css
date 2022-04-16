@@ -1,6 +1,0 @@
-/*Подключаем стили ссылки в шапке*/
-.header__link {
-  color: #2f80ed;
-  text-decoration: none;
-  z-index: 2;
-}
