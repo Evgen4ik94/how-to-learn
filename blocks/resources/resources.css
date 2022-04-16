@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 .resources {
   margin: 100px auto 217px auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+=======
+.resources {
+  margin: 100px auto 217px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+>>>>>>> ccaa32954a8e3e914cb3a0ac440bb8c0ff1eed10
 }
